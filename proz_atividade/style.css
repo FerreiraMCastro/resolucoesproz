@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+footer{
+   display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    border-bottom: 2px solid rgba(158, 141, 141, 0.461);
+    padding: 10px 4px ;
+}
+
+h1,ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 4rem;
+    
+}
