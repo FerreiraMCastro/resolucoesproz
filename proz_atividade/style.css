@@ -1,13 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+
+
 * {
     margin: 0;
-    padding: 0;
-   
-    
+    padding: 0;    
 }
 
-footer{
-   display: flex;
+body{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+  
 }
+
+ header{
+    display: flex;
+    justify-content: space-between; 
+    /* margin-left: 30px; */
+    background-color: rgba(236, 239, 188, 0.702);   
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+
 
 nav{
     display: flex;
@@ -18,10 +41,41 @@ nav{
     padding: 10px 4px ;
 }
 
-h1,ul{
+
+.fotos{
+    background-color: rgba(243, 236, 140, 0.848);
+    border: 2px solid gray;
+    border-radius: 20px;
+    width: 70%;
+    flex-wrap: nowrap;
+    padding: 25px ;
+    margin: 30px;
+}
+
+article{
+    padding-bottom: 25px;
+}
+.imagens-destaque{
+    width: 100%;
+    height: auto;
+}
+
+h1,ul {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 4rem;
     
+} 
+
+footer{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+ }
+
+.paragrafo-final{
+    background-color: rgba(243, 236, 140, 0.848);
+    border: 1px solid gray;
+    border-radius: 4px;
 }
